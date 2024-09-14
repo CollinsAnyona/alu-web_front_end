@@ -280,18 +280,18 @@ ul.row {
     display: var(--button-display);
     padding: var(--button-padding);
     border: var(--button-border);
-    color: var(--button-color);
     font-size: var(--button-font-size);
+    color: var(--button-color);
     text-decoration: var(--button-text-decoration);
-}
+  }
 
-.button:hover {
+  .button:hover {
     color: var(--button-hover-color);
     text-decoration: var(--button-hover-text-decoration);
     background-color: var(--button-hover-background);
-
-    transition: all var(--transition-duration) var(--transition-cubic-bezier);
-}
+    transition-duration: var(--transition-duration);
+    transition-property: color, background-color;
+  }
 
 .card-testimonial {
     text-align: center;
