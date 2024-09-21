@@ -2,7 +2,7 @@
 @use "sass:meta";
 
 // Define the list to sort
-$list_to_sort:john anna zoe kim felicia carrie;
+$list_to_sort: john anna zoe kim felicia carrie;
 
 // Function to sort the list
 @function sort-list($list) {
